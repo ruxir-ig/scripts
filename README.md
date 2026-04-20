@@ -12,10 +12,8 @@ Installs Node.js, npm, OpenAI Codex CLI, and OpenCode CLI on Windows with one co
 
 ## One-line install
 
-Replace `<USER>` and `<REPO>` after you publish this repository:
-
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -Command "& { $f = Join-Path $env:TEMP 'install-dev-tools.ps1'; curl.exe -fsSL 'https://raw.githubusercontent.com/<USER>/<REPO>/main/install-dev-tools.ps1' -o $f; & $f; Remove-Item $f -Force }"
+powershell -NoProfile -ExecutionPolicy Bypass -Command "& { $f = Join-Path $env:TEMP 'install-dev-tools.ps1'; curl.exe -fsSL 'https://raw.githubusercontent.com/ruxir-ig/scripts/main/install-dev-tools.ps1' -o $f; & $f; Remove-Item $f -Force }"
 ```
 
 ## Local run
